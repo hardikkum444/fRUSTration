@@ -25,12 +25,15 @@ fn main(){
     let mut x: i32 = 10;
     println!("currently the value of x is: {}",x);
     
-    let x = 32;
+    x = 32;
     println!("now the value of x is: {}",x);
     
-    let x = 5;
+    x = 5;
     assert_eq!(x,5);
-    println!("and finally the value of x is: {}",5);
+    println!("and finally the value of x is: {}",x);
+
+    x=x+7;
+    println!("and finally, after adding the value of x is: {}",5);
     
     
 }
